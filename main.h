@@ -17,7 +17,7 @@ typedef struct fun
 {
 	char t;
 
-	int (*f)();
+	int (*f)(va_list);
 
 } func_t;
 
